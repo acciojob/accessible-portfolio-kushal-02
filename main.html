@@ -8,29 +8,34 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<header role="heading">
-		<h1>My Portfolio</h1>
-	</header>
 
-	<nav role="navigation">
-		<ul >
-			<li> <a href="#about">About Me</a> </li>
-			<li> <a href="#projects">Projects</a> </li>
-			<li> <a href="#contact">Contact Me</a> </li>
-		</ul>
-	</nav>
+       <header>
+        <h1 role="heading">My Portfolio</h1>
+        <nav role="navigation">
+            <ul role="list">
+                <li role="listitem"><a href="#about">About</a></li>
+                <li role="listitem"><a href="#projects">Projects</a></li>
+                <li role="listitem"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-	
     <main>
         <section id="about">
-            <h2>About Me</h2>
-            <img src="C:\Users\MSI\Pictures\IMG_0004.MOV" alt="Profile Picture" role="img">
-            <p>A brief description about myself...</p>
+            <h2 role="heading">About Me</h2>
+            <img style="width: 350px; height: 350px;" src="image/image-sunrise" alt="Profile Picture" role="img">
+            <p>A brief description of who I am and what I do.</p>
+            <ul role="listitem"">
+                <li role="listitem">Skill 1</li>
+                <li role="listitem">Skill 2</li>
+                <li role="listitem">Skill 3</li>
+            </ul>
         </section>
 
         <section id="projects">
-            <h2>Projects</h2>
-            <ul role="list">
+            <h2 role="heading">Projects</h2>
+            <p>Descriptions of my recent projects.</p>
+            <ul role="listitem"">
                 <li role="listitem">Project 1</li>
                 <li role="listitem">Project 2</li>
                 <li role="listitem">Project 3</li>
@@ -38,10 +43,11 @@
         </section>
 
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Contact information goes here...</p>
+            <h2 role="heading">Contact Me</h2>
+            <p>You can reach me at email@example.com</p>
         </section>
     </main>
+
 	
     <script type="text/javascript" src="./script.js">
 </script>
